@@ -1,0 +1,27 @@
+
+
+```
+.gitignore
+
+*.sass
+bin/
+admin/
+config/
+
+```
+
+git init
+
+git add .
+
+git commit -m "version01"
+
+git branch blog
+
+git checkout blog
+
+git remote add origin https://github.com/danya0709/first_one.git
+
+git checkout master
+
+git push -u origin master
